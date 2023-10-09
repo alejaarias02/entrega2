@@ -30,9 +30,10 @@ def text_to_speech(text, tld):
 
 
 # Reproduce el archivo de audio usando playsound
-result, output_text = text_to_speech(translated_text, target_lang_code)
+#result, output_text = text_to_speech(translated_text, target_lang_code)
 
 
-    audio_file = open(f"temp/{result}.mp3", "rb")
+ 
+    #audio_file = open(f"temp/{result}.mp3", "rb")
 
-    audio_bytes = audio_file.read()
+    #audio_bytes = audio_file.read()
